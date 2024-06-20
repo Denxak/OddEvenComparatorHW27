@@ -21,7 +21,6 @@ class ArrayToolsTest {
         System.out.println("=== testOddEvenSort ===");
         ArrayTools.printArray(origin);
         expected = ArrayTools.oddEvenSort(origin);
-        System.out.println("=== Array uto Sorting ===");
         ArrayTools.printArray(expected);
     }
 
